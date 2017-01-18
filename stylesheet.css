@@ -1,0 +1,88 @@
+/*h1 {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.navbar-brand { 
+    max-height: 40px;
+    max-width: 10%; 
+    overflow: visible;
+    padding-top: 0;
+    padding-bottom: 0; 
+}
+
+.navbar-brand,
+.navbar-nav li a {
+    line-height: 50px;
+    height: 50px;
+    padding-top: 0;
+    margin: auto;
+}*/
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+      width: 100%;
+      height: auto;
+}
+
+.carousel-inner {
+    margin: 0 auto;
+}
+
+#front-images.navbar{
+    /*visibility: hidden;*/
+    position: absolute;
+    top:100px;
+    z-index:10;
+    background:#fff;
+    width:100%;
+}
+
+#head.navbar{
+    min-height: 15px;
+    margin-bottom: 0px;
+}
+#head.navbar-brand {
+    padding: 0 0px; height: 15px; line-height: 15px;
+}
+
+#head.navbar-default .navbar-brand {
+    color: rgba(119, 119, 119, 1);
+}
+#head.navbar-default {
+    font-size: 12px;
+    background-color: rgba(0, 0, 0, 1);
+    border-width: 0px;
+    border-radius: 0px;
+    padding-right: 200px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+#head.navbar-default .navbar-nav>li>a {
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(248, 248, 248, 0);
+    padding: 10px 20px;
+}
+#head.navbar-default .navbar-nav>li>a:hover,
+#head.navbar-default .navbar-nav>li>a:focus {
+    color: rgba(235, 70, 70, 1);
+    background-color: rgba(0, 0, 0, 1);
+}
+#head.navbar-default .navbar-nav>.active>a,
+#head.navbar-default .navbar-nav>.active>a:hover,
+#head.navbar-default .navbar-nav>.active>a:focus {
+    color: rgba(235, 70, 70, 1);
+    background-color: rgba(0, 0, 0, 1);
+}
+#head.navbar-default .navbar-toggle {
+    border-color: #000000;
+}
+#head.navbar-default .navbar-toggle:hover,
+#head.navbar-default .navbar-toggle:focus {
+    background-color: #000000;
+}
+#head.navbar-default .navbar-toggle .icon-bar {
+    background-color: #000000;
+}
+#head.navbar-default .navbar-toggle:hover .icon-bar,
+#head.navbar-default .navbar-toggle:focus .icon-bar {
+    background-color: #000000;
+}
