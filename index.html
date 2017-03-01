@@ -33,58 +33,52 @@
   <body>
 
   	<!-- head nav -->
-    <div id="head" class="navbar navbar-default " role="navigation">
+    <div id="head" class="navbar navbar-default" role="navigation">
 	    <div class="container-fluid">
-	        <div class="navbar-header">
-<!-- 	            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-menubuilder">
-	            <span class="sr-only">Toggle navigation</span>
-	            <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
-	            </button> -->
-	            <nav class="navbar-toggle" data-toggle="collapse" data-target=".navbar-menubuilder">
-	            	<ul class="nav navbar-nav">
-		                <li><a href="#">Find Nearest Store</a>
-		                </li>
-		                <li><a href="#">search box</a>
-		                </li>
-		            </ul>
-	            </nav>
-	        </div>
-	        <div class="collapse navbar-collapse navbar-menubuilder">
-	            <ul class="nav navbar-nav navbar-right">
-	                <li><a href="#">Find Nearest Store</a>
-	                </li>
-	                <li><a href="#">search box</a>
-	                </li>
-	            </ul>
-	        </div>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">Find Nearest Store</a>
+                </li>
+                <li><a href="#">search box</a>
+                </li>
+            </ul>
 	    </div>
 	</div>
 
-	<!-- carousel -->
-		<div id="front-images" class="carousel slide" data-ride="carousel">
 
-		<nav class="navbar navbar-default">
-	  		<div class="container">
-	    		<div class="navbar-header">
-			      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-			        <span class="icon-bar"></span>
-			        <span class="icon-bar"></span>
-			        <span class="icon-bar"></span> 
-			      </button>
-			<a href="#" class="navbar-left"><img src="logo.png"></a>
-	   			</div>
-		    	<div class="collapse navbar-collapse" id="myNavbar">
-		      		<ul class="nav navbar-nav navbar-right">
-				        <li><a href="#products">PRODUCTS</a></li>
-				        <li><a href="#locations">LOCATIONS</a></li>
-				        <li><a href="#resources">RESOURCES</a></li>
-				        <li><a href="#about">ABOUT</a></li>
-				        <li><a href="#contact us">CONTACT US</a></li>
-				        <li><a href="#services">SERVICES</a></li>
-				        <li><a href="#studio paint">STUDIO PAINT</a></li>
-			      	</ul>
-			    </div>
-	  		</div>
+	<!-- main nav -->
+	<div class="container-fullwidth">
+	  	<nav id="main" class="navbar navbar-default">
+	    	<div class="container-fluid">
+			  <div class="navbar-header">
+			    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNavbar">
+			      <span class="sr-only">Toggle navigation</span>
+			      <span class="icon-bar"></span>
+			      <span class="icon-bar"></span>
+			      <span class="icon-bar"></span>
+			    </button>
+			    <a class="navbar-brand" href="#"><img src="splogo.png" alt="ShilPark Paint">
+			    </a>
+			  </div>
+		<div class="collapse navbar-collapse" id="myNavbar">
+	  		<ul class="nav navbar-nav navbar-right">
+		        <li><a href="#products">PRODUCTS</a></li>
+		        <li><a href="#locations">LOCATIONS</a></li>
+		        <li><a href="#resources">RESOURCES</a></li>
+		        <li><a href="#about">ABOUT US</a></li>
+		        <li><a href="#contact us">CONTACT US</a></li>
+		        <li><a href="#services">SERVICES</a></li>
+	      	</ul>
+	    </div>
+	      <!--/.nav-collapse -->
+	    </div>
+	    <!--/.container-fluid -->
+	  </nav>
+	</div>
+
+	<!-- carousel -->
+		<div id="front-images" class="carousel slide  hidden-x1-down" data-ride="carousel">
+
+
 		  <!-- Indicators -->
 		  <ol class="carousel-indicators">
 		    <li data-target="#front-images" data-slide-to="0" class="active"></li>
@@ -140,34 +134,32 @@
 		</div>
 	</div>
 
-	<!-- menu nav -->
-<!--     <nav class="navbar navbar-default navbar-fixed-top">
-	  <div class="container">
-	    <div class="navbar-header">
-	      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-	        <span class="icon-bar"></span>
-	        <span class="icon-bar"></span>
-	        <span class="icon-bar"></span> 
-	      </button>
-	      <a class="navbar-brand" href="#">Logo
- 
-    		<img src="logo.png" alt="Shil Park Paint">
-  		  </a>
+
+	<!-- footer -->
+	<footer>
+		<div class="footer" id="footer">
+	        <div class="container">
+	            <div class="row">
+	                <div class="col-lg-2  col-md-2 col-sm-4 col-xs-6">
+	                    <ul>
+	                        <li> <a href="#"> About Us </a> </li>
+	                        <li> <a href="#"> Contact Us </a> </li>
+	                        <li> <a href="#"> Terms of Use </a> </li>
+	                        <li> <a href="#"> Return Policy </a> </li>
+	                        <li> <a href="#"> Job Opportunities</a> </li>
+	                        <li> <a href="#"> Privacy Policy </a> </li>
+	                    </ul>
+	                </div>
+	            </div>
+	        </div>
 	    </div>
-	    <div class="collapse navbar-collapse" id="myNavbar">
-	      <ul class="nav navbar-nav navbar-right">
-	        <li><a href="#products">PRODUCTS</a></li>
-	        <li><a href="#locations">LOCATIONS</a></li>
-	        <li><a href="#resources">RESOURCES</a></li>
-	        <li><a href="#about">ABOUT</a></li>
-	        <li><a href="#contact us">CONTACT US</a></li>
-	        <li><a href="#services">SERVICES</a></li>
-	        <li><a href="#studio paint">STUDIO PAINT</a></li>
-	      </ul>
+
+	    <div class="footer-bottom">
+	        <div class="container">
+	            <p class="pull-left"> Copyright © Shil Park Paint 2017. All rights reserved. </p>
+	        </div>
 	    </div>
-	  </div>
-	</nav> -->
- 
+    </footer>
 
   </body>
 </html>
