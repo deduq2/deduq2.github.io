@@ -9,7 +9,8 @@
 }
 
 .img-responsive {
-	width: 100%;
+	float: center;
+	margin: 0 auto;
 }
 
 .text-overlay {
@@ -27,4 +28,8 @@
   /* adjust 'height' to position overlay content vertically */
   height: 87%;
 
+}
+
+p {
+	font-size: 1em;
 }
