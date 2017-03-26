@@ -121,7 +121,25 @@
     background-color: #EC2028;
 }
 
+#products-page {
+  background-image: url("../pics/paint.jpg");
+  background-size: 1440px 800px;
+  background-repeat:no-repeat;
+  display: compact;
+}
 
+h1, h2, h3 {
+  color: #EC2028;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.text-holder {
+  height: 10%;
+}
+
+.img-holder {
+  margin-bottom: 10px;
+}
 
 .img-wrapper {
   position: relative;
