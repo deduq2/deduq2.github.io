@@ -150,6 +150,22 @@ h1, h2, h3 {
     border-color: #002B5C;
 }
 
+.text-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 10px;
+  right: 0;
+  text-align: left;
+}
+
+.text-overlay:before {
+  content: ' ';
+  display: block;
+  /* adjust 'height' to position overlay content vertically */
+  height: 30%;
+}
+
 .img-overlay {
   position: absolute;
   top: 0;
