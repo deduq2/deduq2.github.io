@@ -10,10 +10,9 @@
 
 .navbar-brand {
   padding: 0px;
-  padding-left: 200px;
-  margin-left: auto;
-  margin-right: auto;
+  padding-left: 100px;
 }
+
 .navbar-brand>img {
   height: 100%;
   padding: 15px;
@@ -89,7 +88,7 @@
 }
 #main.navbar-default {
     font-size: 18px;
-    letter-spacing: .1em;
+    letter-spacing: .05em;
     color: #00000;
     font-family: 'Source Sans Pro', sans-serif;
     background-color: #FFFFFF;
