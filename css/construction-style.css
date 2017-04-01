@@ -4,6 +4,20 @@
           border-radius: 0 !important;
 }
 
+@media (min-width: 480px) {
+  .slate {
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+  }
+  #main-nav .navbar-header, #main-nav #main-nav-list {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+  }
+
+}
+
 .image-wrapper {
   position: relative;
 }

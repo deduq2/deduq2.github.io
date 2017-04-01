@@ -10,13 +10,30 @@
 
 .navbar-brand {
   padding: 0px;
-  padding-left: 100px;
 }
 
 @media (max-width: 768px) {
     .navbar-brand {
         padding: 0px;
     }
+}
+
+@media (min-width: 480px) {
+  .slate {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  #main-nav {
+    text-align: center;
+  }
+
+  #main-nav .navbar-header, #main-nav #main-nav-list {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+  }
+
 }
 
 .navbar-brand>img {
@@ -121,7 +138,7 @@
 }
 
 #products-page {
-  background-image: url("../pics/paint.jpg");
+  background-image: url("../pics/paintS.jpg");
   background-size: 1440px 800px;
   background-repeat:no-repeat;
   display: compact;

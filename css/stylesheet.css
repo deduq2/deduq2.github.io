@@ -8,9 +8,29 @@
     border:1px solid black;
 }*/
 
+body {
+  background: #000000;
+}
+
+@media (min-width: 480px) {
+  .slate {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  #main-nav {
+    text-align: center;
+  }
+  #main-nav .navbar-header, #main-nav #main-nav-list {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+  }
+
+}
+
 .navbar-brand {
   padding: 0px;
-  padding-left: 100px;
+  /*padding-left: 100px;*/
 }
 
 @media (max-width: 768px) {
@@ -131,7 +151,13 @@
     background-color: #EC2028;
 }
 
+#main-gallery {
+  padding-top: 15px;
+}
 
+.img-holder {
+  margin-bottom: 10px;
+}
 
 .img-wrapper {
   position: relative;
@@ -187,7 +213,14 @@
   border-color: #EC2028;
 }
 
-.full {
+#main-gallery {
+  background-image: url("../pics/paintS.jpg");
+  background-size: 4000px 2000px;
+  background-repeat:no-repeat;
+  display: compact;
+}
+
+/*.full {
     width: 100%;    
 }
 .gap {
@@ -195,14 +228,14 @@
     width: 100%;
     clear: both;
     display: block;
-}
+}*/
 .footer {
     background: #EDEFF1;
     height: auto;
     padding-bottom: 15px;
     padding-top: 15px;
     position: relative;
-    width: 100%;
+    /*width: 100%;*/
     border-bottom: 1px solid #CCCCCC;
     border-top: 1px solid #DDDDDD;
 }
