@@ -8,6 +8,26 @@
     border:1px solid black;
 }*/
 
+body {
+  background: #000000;
+}
+
+@media (min-width: 480px) {
+  .slate {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  #main-nav {
+    text-align: center;
+  }
+  #main-nav .navbar-header, #main-nav #main-nav-list {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+  }
+
+}
+
 .navbar-brand {
   padding: 0px;
 }
@@ -16,24 +36,6 @@
     .navbar-brand {
         padding: 0px;
     }
-}
-
-@media (min-width: 480px) {
-  .slate {
-    margin-left: 10%;
-    margin-right: 10%;
-  }
-
-  #main-nav {
-    text-align: center;
-  }
-
-  #main-nav .navbar-header, #main-nav #main-nav-list {
-    display: inline-block;
-    float: none;
-    vertical-align: top;
-  }
-
 }
 
 .navbar-brand>img {

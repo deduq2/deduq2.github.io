@@ -4,10 +4,16 @@
           border-radius: 0 !important;
 }
 
+body {
+  background: #000000;
+}
+
 @media (min-width: 480px) {
   .slate {
     margin-left: 10%;
     margin-right: 10%;
+  }
+  #main-nav {
     text-align: center;
   }
   #main-nav .navbar-header, #main-nav #main-nav-list {
